@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/radianttap/HTMLPDFRenderer.git" }
   s.source_files = '*.swift'
   s.frameworks   = 'UIKit'
-  s.dependencies = 'SwiftyTimer'
+  s.dependency  'SwiftyTimer'
 end

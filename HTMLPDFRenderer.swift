@@ -25,6 +25,8 @@ public final class HTML2PDFRenderer {
 	public typealias Callback = (URL?, Error?) -> Void
 
 	//	Internal
+	
+	public init() {}
 
 	private var webView: WKWebView?
 	private var webLoadingTimer: Timer?
